@@ -156,7 +156,7 @@ def timer(func):
     return wrapper
 
 @timer
-@st.cache
+#@st.cache
 def loader_preprocesser(dataset):
     dataframe=pd.read_csv(dataset)
     df_notpreprocessed=dataframe
