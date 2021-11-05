@@ -24,14 +24,14 @@ datasetchoice=st.sidebar.selectbox("Choisissez l'année", ["2020","2019","2018",
 
 # Create connection object.
 # `anon=False` means not anonymous, i.e. it uses access keys to pull data.
-fs = s3fs.S3FileSystem(anon=False)
+#fs = s3fs.S3FileSystem(anon=False)
 
 # Retrieve file contents.
 # Uses st.cache to only rerun when the query changes or after 10 min.
-@st.cache(ttl=600)
-def read_file(filename):
-    with fs.open(filename) as f:
-        return f.read().decode("utf-8")
+#@st.cache(ttl=600)
+#def read_file(filename):
+#    with fs.open(filename) as f:
+#        return f.read().decode("utf-8")
 dataset2020='https://jtellier.fr/DataViz/full_2020.csv'
 #dataset2019=read_file('streamlitbucketwilfriedponnou/full_2019.csv')
 #dataset2018=read_file('streamlitbucketwilfriedponnou/full_2018.csv')
@@ -156,7 +156,7 @@ def timer(func):
     return wrapper
 
 @timer
-#@st.cache
+@st.cache
 def loader_preprocesser(dataset):
     dataframe=pd.read_csv(dataset)
     df_notpreprocessed=dataframe
