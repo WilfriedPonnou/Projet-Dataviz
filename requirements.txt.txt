@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+folium
+matplotlib
+statistics
+time
+datetime
+streamlit_folium
+pyecharts
+datetime
+streamlit_echarts
