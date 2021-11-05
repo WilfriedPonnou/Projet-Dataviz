@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 folium
-matplotlib
+matplotlib.pyplot
 statistics
 time
 datetime
