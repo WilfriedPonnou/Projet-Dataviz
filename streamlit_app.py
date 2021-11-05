@@ -32,7 +32,7 @@ fs = s3fs.S3FileSystem(anon=False)
 def read_file(filename):
     with fs.open(filename) as f:
         return f.read().decode("utf-8")
-dataset2020=read_file('streamlitbucketwilfriedponnou/full_2020.csv')
+dataset2020='s3://streamlitbucketwilfriedponnou/full_2016.csv'
 #dataset2019=read_file('streamlitbucketwilfriedponnou/full_2019.csv')
 #dataset2018=read_file('streamlitbucketwilfriedponnou/full_2018.csv')
 #dataset2017=read_file('streamlitbucketwilfriedponnou/full_2017.csv')
