@@ -3,7 +3,7 @@ numpy
 pandas
 folium
 s3fs
-matplotlib.pyplot
+matplotlib
 statistics
 time
 datetime
