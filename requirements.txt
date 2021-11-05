@@ -5,7 +5,6 @@ folium
 s3fs
 matplotlib
 statistics
-time
 datetime
 streamlit_folium
 pyecharts
