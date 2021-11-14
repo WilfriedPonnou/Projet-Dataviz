@@ -406,7 +406,7 @@ if st.checkbox("Voir la carte des ventes"):
 plotchoice=st.selectbox("Choisissez la représentation",["Evolution des ventes durant l'année","Prix moyen par m²","Histogramme des natures de mutations","Camembert des types de biens vendus","Histogramme des natures de culture des biens vendus","Départements ayant le plus de transactions immobilières en "+ str(datasetchoice)])
     
 if plotchoice=="Histogramme des natures de mutations":
-    st.header('Histogramme du pourcentage des natures de mutation'+str(datasetchoice))
+    st.header('Histogramme des natures de mutation en '+str(datasetchoice))
     st.bar_chart(df['nature_mutation'].value_counts())
         
 
