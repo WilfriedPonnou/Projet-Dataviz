@@ -158,7 +158,7 @@ def timer(func):
         return val
     return wrapper
 
-@timer
+#@timer
 @st.cache
 def loader_preprocesser(dataset):
     # IF YOU ONLY WANT A SAMPLE!#####################################################################################################################
