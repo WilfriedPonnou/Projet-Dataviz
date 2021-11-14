@@ -19,7 +19,7 @@ from streamlit_echarts import st_pyecharts
 st.set_page_config(page_title="Immo", page_icon="https://www.camping-croisee-chemins.fr/wp-content/uploads/2021/02/Recyclage.png",layout="wide")
 st.title("Immo Datasets dashboards | PONNOU Wilfried")
 #################################################################### DATA ###############################################################################""
-datasetchoice=st.sidebar.selectbox("Choisissez l'année (NE CHANGEZ PAS L'ANNEE SI VOUS RUNNEZ SUR ST SHARE, CELA VA CRASHER L'APP", ["2020","2019","2018","2017","2016"] )
+datasetchoice=st.sidebar.selectbox("Choisissez l'année (NE CHANGEZ PAS L'ANNEE SI VOUS RUNNEZ SUR ST SHARE, CELA VA CRASHER L'APP)", ["2020","2019","2018","2017","2016"] )
 
 
 # Create connection object.
