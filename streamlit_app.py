@@ -163,7 +163,7 @@ def timer(func):
 def loader_preprocesser(dataset):
     # IF YOU ONLY WANT A SAMPLE!#####################################################################################################################
     num_lines = 1500000
-    size = int(num_lines / 15)
+    size = int(num_lines / 10)
     skip_idx = random.sample(range(1, num_lines), num_lines - size)
     dataframe = pd.read_csv(dataset, skiprows=skip_idx)
     #IF YOU WANT ALL THE DATA COMMENT ALL THE ABOVE PART OF THIS FUNCTION!(and uncomment the line 171)##################################################
