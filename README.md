@@ -2,6 +2,7 @@
 ## Project Goal:
 Make effecient vizualisations in order to explain these dataset of real estate transactions
 ## Vizualisations you will retreive in this app:
+### Some of the vizualization include interactivity that is why streamlit_echarts and pyecharts have been used for. There are slicers, input, chechbox you can playt with don't hesitate to do so, and explore all the options!
 1) Evolution of sales during one year(bar chart): in order to see trends of when people tend to buy or sale their real estate
 and conclude when you should also buy or sell your real estate.
 2) Histogram of  the nature of mutations: in order to know what type of selling is the best has the highest trend.
