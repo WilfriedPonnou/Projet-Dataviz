@@ -12,4 +12,5 @@ and conclude when you should also buy or sell your real estate.
 6) Project: mean price by square meters according to: type of real estate, city, number of rooms.
 ## Libraries used:
 Matplotlib, Numpy, Pandas, Folium, streamlit_echarts, pyecharts.
+## Datasets have been loaded thanks to Jacques Tellier's website. I have tried to do it with Amazon S3 unsuccessfully, because the streamlit share application constantly crashed.
 # !!!! Be conscious of the fact that a sampling has been used in order to speed up loading times, comment lines 166 to 169 if you want to work with the whole dataset in local and uncomment line 171!!! 
