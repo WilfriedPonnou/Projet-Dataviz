@@ -5,7 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 import datetime
-import streamlit.components.v1 as components
 import statistics
 import folium
 import s3fs
