@@ -1,6 +1,7 @@
 # Projet Dataviz Immo Data | Wilfried Ponnou
 ## Project Goal:
 Make effecient vizualisations in order to explain these dataset of real estate transactions
+## You have initially the option of choosing the year of study, but changing the year in streamlit share causes app crash. So if you want to choose the year, you'd rather run the ap in local.
 ## Vizualisations you will retreive in this app:
 ### Some of the vizualization include interactivity that is why streamlit_echarts and pyecharts have been used for. There are slicers, input, chechbox you can playt with don't hesitate to do so, and explore all the options!
 1) Evolution of sales during one year(bar chart): in order to see trends of when people tend to buy or sale their real estate
